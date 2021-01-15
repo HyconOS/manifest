@@ -1,18 +1,37 @@
-# Pixel Experience #
+# Hycon OS #
+<img src="https://i.postimg.cc/NG3S1xdM/Pics-Art-01-20-07-06-57.png">
 
-### Sync ###
+Credits:
+=======
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**RevengeOS**](https://github.com/RevengeOS)
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
+ * [**AospExtended**](https://github.com/AospExtended)
+ * [**ABC**](https://github.com/ezio84?tab=repositories)
+ * [**Project-Awaken**](https://github.com/Project-Awaken)
+ * [**PixelExtended**](https://github.com/PixelExtended)
+ * [**WaveOS**](https://github.com/Wave-Project)
+
+-----------------------------------------------------------------------------
+
+### Getting Started: ###
+
+To initialize your local repository, use a command like this:
+```bash
+repo init -u https://github.com/HyconOS/manifest -b eleven
+```
+
+### Then to sync up: ###
 
 ```bash
-
-# Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b eleven
-
-# Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-### Build ###
+### Finally to build: ###
 
+From root directory of Project, perform following commands in terminal:
 ```bash
 
 # Set up environment
@@ -24,49 +43,16 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
+### Maintainership ###
 
-### Submitting Patches ###
+If You wish to maintain Hycon OS For your device Officially , Contact @Prophecy_Child or @introdructor on telegram.
 
-Patches are always welcome!  Please submit your patches to our Gerrit.
+Some things to consider before applying:
 
-To start contributing, just register at https://gerrit.pixelexperience.org
+• You must own the device. Blind and untested builds aren't allowed.
 
-Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
+• You must have knowledge of git.
 
-```bash
-git config --global review.gerrit.pixelexperience.org.username <username you registered with>
+• You must do one or two unofficial build[Post at XDA], be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
 
-git config --global review.gerrit.pixelexperience.org.email <your email you registered with>
-
-ssh-keygen -t rsa -C "your@email.com"
-```
-
-In our gerrit click on your "Avatar" on the top right, then on "Settings".
-
-While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
-
-Now on your computer navigate to your home "~/.ssh" and open up "id_rsa.pub", copy/paste the context to "Gerrit SSH Public Keys".
-
-You can send patches to us by using these commands in terminal:
-
-```
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    pixelgerrit push eleven
-
-    or
-
-    git push ssh://<username>@gerrit.pixelexperience.org:29418/<project> HEAD:refs/for/<branch>
-```
-
-* `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.pixelexperience.org/#/settings/))
-* `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.pixelexperience.org/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `eleven`
-
-Make your changes and commit with a detailed message, starting with what you are working with
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-For more help, use this commands: `pixelgerrit help` or `pixelrebase help`
-
-[View Code Review](https://gerrit.pixelexperience.org/)
+• You must have your device sources public [Modified trees needed] .
