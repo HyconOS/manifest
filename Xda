@@ -1,0 +1,204 @@
+ 
+[CENTER][IMG]https://i.postimg.cc/yYKtVPWM/Hycon.png[/IMG][/CENTER]
+
+
+[CENTER][CODE]
+/*
+ * Your warranty is... still valid?
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */
+[/CODE][/CENTER]
+[CENTER][IMG]https://i.postimg.cc/8CYxNgr4/About-us.png[/IMG][/CENTER]
+[CENTER][B]Hycon OS is AOSP Based ROM with many pixel features & Customizations. We always try to improve it's stability and performance for better & smooth, lagfree experience.[/B][/CENTER]
+
+
+[CENTER][IMG]https://i.postimg.cc/jj2BpSCC/Features.png[/IMG][/CENTER]
+[CENTER][HIDE][CODE][B]Themes:[/B]
+[LIST]
+[*]Accent picker 
+[*]Theme backup
+[*]Theme styles
+[/LIST]
+[B]Notifications:[/B][LIST]
+[*]Heads up options
+[/LIST]
+
+[B]Miscellaneous:[/B]
+[LIST]
+[*]Three Finger Swipe 
+[*]DT2 Sleep
+[*]Signature Spoofing
+[*]Sensor block per app package
+[*]Dashboard conditions
+[*]Dashboard suggestions
+[*]Disable device identifier restrictions
+[/LIST]
+
+
+[B]Lockscreen:[/B]
+[LIST]
+[*]Lockscreen charging info 
+[*]Lockscreen album art
+[*]Shortcuts
+[*]Lockscreen style
+[*]Hide lock icon
+[*]DT2sleep 
+[*]Media Artwork
+[/LIST]
+
+[B]Status Bar[/B]
+[LIST]
+[*]Battery Icon Style
+[*]Battery Percentage
+[*]Battery stats
+[/LIST]
+
+[B]Carrier Label[/B]
+[LIST]
+[*]Custom Carrier Label
+[*]Carrier Label Fonts, Size, Colors
+[/LIST]
+
+[B]Clock Customization[/B]
+[LIST]
+[*]Auto-hide Clock
+[*]Clock Style
+[*]Icon Manager
+[*]Statusbar Icons
+[*]Signal Icon Switch
+[*]Toast app icon
+[*]Bluetooth battery status
+[/LIST]
+
+[B]Quick Settings[/B]
+[LIST]
+[*]Vibrate on Touch
+[*]Tint
+[*]Settings icon toggle
+[*]Edit icon toggle
+[*]QS Blur
+[*]Background opacity
+[*]QS Layout Customization
+[*]Brightness Slider Positions and customization
+[/LIST]
+
+[B]Traffic Indicators[/B]
+[LIST]
+[*]Traffic Indicator Placement
+[*]Activity Layout
+[*]Net Type Activity
+[*]Net font size customization
+[*]Show/Hide arrows toggle
+[*]Net activity auto-hide threshold
+[/LIST]
+
+[B]Hardware[/B]
+[LIST]
+[*]Buttons
+[*]Kill app button
+[*]Screen off power button torch
+[*]Music Control
+[*]Volume rocker wake
+[/LIST]
+
+[B]Navigation[/B]
+[LIST]
+[*]On-Screen nav bar
+[*]System Navigation
+[*]Full Screen gestures
+[*]Left/Right Swipe Action
+[/LIST]
+
+[B]Power Menu[/B]
+[LIST]
+[*]Restart toggle
+[*]Advanced Restart Toggle
+[*]Screenshot toggle
+[/LIST]
+
+[B]Display[/B]
+[LIST]
+[*]Ambient Display
+[*]Always on
+[*]Custom Options
+[*]Batter level on bottom
+[*]New notifications toggle
+[*]Ambient music ticker
+[*]Night Light
+[*]Adaptive Brightness
+[*]Styles and wallpapers
+[*]Display Colors
+[*]Screen Savers
+[*]Screen rotations
+[*]DT2w
+[*]Wake on plug
+[/LIST]
+[/CODE][/HIDE][/CENTER]
+
+
+[CENTER][IMG]https://i.postimg.cc/vTrKr122/Instructions.png[/IMG][/CENTER]
+[CENTER]1. First Important Step is to Backup (though depends on you if you wanna be safe or no :P)
+2. Download Hycon Latest ROM Zip
+3. Flash ROM Zip & Vendor (if applicable according to your device manual :P)
+4. Flash any add-ons if you want to like Gapps, Magisk, Etc.
+5. Reboot & enjoy![/CENTER]
+
+
+[CENTER][IMG]https://i.postimg.cc/5ydGQ5gF/Downloads.png[/IMG][/CENTER]
+[CENTER][URL="Add Download link Of Rom Here"][B]HYCON OS Version Number[/B][/URL][/CENTER]
+
+
+[CENTER][IMG]https://i.postimg.cc/85r9CXRS/Faq.png[/IMG][/CENTER]
+[CENTER][HIDE][CODE]1. Hycon OS is based on?
+Ans. Its based on AOSP
+2. Do we need to flash Gapps?
+Ans. Depends on your device variant. If your official device support has Vanilla version then you have to flash Gapps according to your choice.
+3. When will be the next update! Any ETAs?
+Ans. There will be regular updates as and when the team is ready to push a new update. Kindly do not ask for ETAs.
+4. I need this feature/ I found some bugs!
+Ans. Firstly if u find any bug then please check with your add-ons like magisk module, zips, etc u flashed and whether its related or no. Though if your sure that its from rom side then kindly grab a [URL="https://telegra.ph/Logcats-are-important-03-01"]Logcat[/URL] and report us [URL="https://t.me/HyconOSCommunity"]Here[/URL]
+Secondly for feature request yes u can request them on the above link.[/CODE][/HIDE][/CENTER]
+
+
+[CENTER][IMG]https://i.postimg.cc/BZHR9yZ5/Our-team.png[/IMG][/CENTER]
+[B]Introdructor[/B] - Lead Developer/Maintainer
+[B]Madmax[/B] - Lead Developer/Maintainer
+
+
+[CENTER][IMG]https://i.postimg.cc/3xnPfv8P/Credits.png[/IMG][/CENTER]
+[CENTER]Pixel Experience
+AOSP
+LineageOS
+MSM Xtended
+Evolution X
+Derpfest
+POSP
+And all the other devs/ROMs[/CENTER]
+
+
+[B]You can find our all sources down here:-[/B]
+[URL="Add Kernel Source Link Here"]Kernel Source[/URL]
+[URL="https://github.com/HyconOS"]Github[/URL]
+[URL="https://github.com/Hycon-Devices"]Devices[/URL]
+[URL="https://t.me/HyconOSCommunity"]Telegram Group[/URL]
+[URL="Enter Device Support Grpup Link Here"]Your Device Support Group[/URL]
+ 
+[SIZE=3][B]Hycon OS,  for Your Device Name[/B][/SIZE]
+
+
+[B]ROM OS Version:[/B] Android 11
+[B]ROM Kernel:[/B] Linux X.X
+[B]ROM Firmware Required:[/B] Enter Required Firmware Here
+
+[B][U]Version Information[/U]
+Status:[/B] Beta
+[B]Current Beta Version:[/B] Rom Version Number
+[B]Beta Release Date:[/B] Enter Date Here
+
+[B]Created[ /B] Enter Thread Creation Date
+[B]Last Updated[/B] Enter Last Thread Updated Date Here

@@ -43,8 +43,10 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-### Maintainership ###
+# XDA Template
+[![XDA-Template](https://i.postimg.cc/rp82Qf02/XDADevelopers-button.png)](https://raw.githubusercontent.com/HyconOS/manifest/eleven/Xda)
 
+### Maintainership ###
 If You wish to maintain Hycon OS For your device Officially , Contact @Prophecy_Child or @introdructor on telegram.
 
 Some things to consider before applying:
