@@ -13,6 +13,7 @@ Credits:
  * [**Project-Awaken**](https://github.com/Project-Awaken)
  * [**PixelExtended**](https://github.com/PixelExtended)
  * [**WaveOS**](https://github.com/Wave-Project)
+ * [**Evolution-X**](https://github.com/Evolution-X)
 
 -----------------------------------------------------------------------------
 
