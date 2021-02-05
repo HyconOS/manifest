@@ -163,6 +163,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/HyconHub" name="android_packages_apps_HyconHub" remote="hycon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="hycon" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hycon" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
