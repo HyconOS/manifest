@@ -48,9 +48,11 @@ $ mka bacon -jX
 [![XDA-Template](https://i.postimg.cc/rp82Qf02/XDADevelopers-button.png)](https://raw.githubusercontent.com/HyconOS/manifest/eleven/Xda)
 
 ### Maintainership ###
-If You wish to maintain Hycon OS For your device Officially , Contact @Prophecy_Child or @introdructor on telegram.
+If You wish to maintain Hycon OS For your device Officially , apply through our maintainership form
 
-Some things to consider before applying:
+[![Maintainer-Form](https://img.shields.io/badge/maintainership-form-red?style=for-the-badge&logo=google)](https://forms.gle/ZPv5AwP3A5uABPmY6)
+
+Contact @Prophecy_Child or @introdructor on telegram for further information. Some things to consider before applying:
 
 • You must own the device. Blind and untested builds aren't allowed.
 
@@ -58,4 +60,4 @@ Some things to consider before applying:
 
 • You must do one or two unofficial build[Post at XDA], be sure that the build is stable for daily usage before applying. Stability context may differ for different devices, so explain for any exceptions.
 
-• You must have your device sources public [Modified trees needed] .
+• You must have your device sources public [Modified trees needed].
