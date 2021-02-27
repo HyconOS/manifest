@@ -6,6 +6,10 @@
           revision="eleven"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="Hycon-Devices"
+          fetch="https://github.com/Hycon-Devices"
+          revision="eleven" />
+
   <remote name="hycon"
           fetch="https://github.com/HyconOS/"
           revision="refs/heads/eleven" />
