@@ -170,6 +170,7 @@
   <project path="packages/apps/HyconHub" name="android_packages_apps_HyconHub" remote="hycon" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="hycon" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="hycon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hycon" />
