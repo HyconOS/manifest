@@ -98,6 +98,7 @@
   <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
+  <project path="external/pulse" name="external_pulse" remote="hycon" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
