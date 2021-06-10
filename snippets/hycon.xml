@@ -30,10 +30,10 @@
           fetch="https://gitlab.com" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="hycon" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="hycon" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixel">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -99,7 +99,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/pulse" name="external_pulse" remote="hycon" />
-  <project path="external/selinux" name="external_selinux" remote="pixel" />
+  <project path="external/selinux" name="external_selinux" remote="hycon" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
@@ -108,13 +108,13 @@
   <project path="frameworks/av" name="frameworks_av" remote="hycon" />
   <project path="frameworks/base" name="frameworks_base" remote="hycon" />
   <project path="frameworks/native" name="frameworks_native" remote="hycon" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="hycon" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="hycon" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="hycon" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
+  <project path="art" name="art" remote="hycon" />
   <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/make" name="build" remote="hycon">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -125,12 +125,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="pixel" >
+  <project path="build/soong" name="build_soong" remote="hycon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="hycon" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="hycon" />
   <project path="manifest" name="manifest" remote="hycon" />
@@ -165,14 +165,14 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="hycon" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/HyconHub" name="android_packages_apps_HyconHub" remote="hycon" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="hycon" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="hycon" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
@@ -184,12 +184,12 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="hycon" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="hycon" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="hycon" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="hycon" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="hycon" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="hycon" />
 
   <!-- Prebuilts -->
@@ -212,7 +212,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="hycon" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
-  <project path="system/update_engine" name="system_update_engine" remote="pixel" />
+  <project path="system/update_engine" name="system_update_engine" remote="hycon" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
   <!-- Tools Repos -->
