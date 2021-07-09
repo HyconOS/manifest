@@ -92,6 +92,7 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="hycon" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
+  <project path="external/dtc" name="external_dtc" remote="hycon" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/faceunlock" name="external_faceunlock" remote="hycon" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
